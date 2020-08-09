@@ -27,12 +27,12 @@
         
         <div class="col-md-6">
     <div class="logo">   <a href="#"><img src="images/logo.png"></a></div> 
-        <div class="mobilemenu"><a href="#"> <span class="menuline"></span> <span class="menuline"></span><span class="menuline"></span> </a> </div>
+        <div class="mobilemenu"><a href="#" onclick="openNav()"> <span class="menuline"></span> <span class="menuline"></span><span class="menuline"></span> </a> </div>
         </div>
         <div class="col-md-6 text-right">
         <ul class="fin_r_menu">
             <li class="logname"><a href="#"> K </a> </li>
-            <li class="logout"><a href="#"> <img src="images/logout.png"> </a> </li>
+            <li class="logout"><a href="login.html"> <img src="images/logout.png"> </a> </li>
             </ul>
         
         </div>
@@ -41,7 +41,7 @@
     </div>
     </div>
     
-    </header> 
+    </header>
   
  <div class="dashboard">
   <div class="container">  
@@ -54,10 +54,10 @@
             
             <ul class="submenu">
                  
-                <li class=""><a href="index.html">All Products</a>  </li>
+                <li class=""><a href="dashboard.html">All Products</a>  </li>
 <li class=""><a href="#">Credit Card</a>  </li>
 <li class=""><a href="#">Loan</a>  </li>
-<li class=""><a href="insurance_v1.html">Insurance</a>  </li>
+<li class=""><a href="#">Insurance</a>  </li>
 <li class=""><a href="insurance_v2.html">Investment</a>  </li>
                  </ul>
             
@@ -157,7 +157,130 @@ Percentage</div>
      </div>
     </div>
  
- 
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close.svg"> </a>
+    
+         <div class="fullheight d-flex align-items-center">
+              <div class="fullwidth">
+ <ul class="slidemenu">
+   
+ <li class="dropdown"><a href="#" class="leve1 dropdown-toggle"><i class="menuicons profile "></i> My Profile</a>
+    <div class="dropdown-menu level_one">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve2">  FinPro 1</a></li>
+<li><a href="#" class="leve2">FinPro 2</a></li>
+<li><a href="#" class="leve2">FinPro 3</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+     </li>
+     
+     
+     
+ <li class="dropdown"><a href="#" class="leve1 dropdown-toggle"><i class="menuicons finpro"></i>My FinPro</a>
+     <div class="dropdown-menu level_one">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve2">  Dashboard</a></li>
+<li class="dropdown"><a href="#" class="leve2 dropdown-toggle">Add New Lead</a>
+         
+         
+         
+         <div class="dropdown-menu level_two">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve3">  Single Lead
+</a></li>
+<li><a href="#" class="leve3">Bulk Upload
+</a>
+         
+         
+         </li>
+<li><a href="#" class="leve3">Link Sharing Option</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+         
+         
+         
+         </li>
+<li><a href="#" class="leve2">My Lead Record</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+     
+     
+     </li>
+<li class="dropdown"><a href="#" class="leve1 dropdown-toggle"><i class="menuicons finteam"></i>FinTeam Manager</a>
+     <div class="dropdown-menu level_one">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve2">  Manager 1</a></li>
+<li><a href="#" class="leve2">Manager 2</a></li>
+<li><a href="#" class="leve2">Manager 3</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+     
+     </li>
+<li class="dropdown"><a href="#" class="leve1 dropdown-toggle"><i class="menuicons mywallet"></i>My Wallet</a>
+     
+     <div class="dropdown-menu level_one">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve2">  Wallet 1</a></li>
+<li><a href="#" class="leve2">Wallet 2</a></li>
+<li><a href="#" class="leve2">Wallet 3</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+     
+     
+     </li>
+ <li><a href="#" class="leve1"><i class="menuicons topoffers"></i>Top Offers</a></li>
+ <li><a href="#" class="leve1"><i class="menuicons bestsell"></i>Best Selling Plans</a></li>
+ <li><a href="#" class="leve1"><i class="menuicons finads"></i>FinAds Marketing</a></li>
+ <li><a href="#" class="leve1"><i class="menuicons fintrain"></i>FinTrain Learning</a></li>
+ <li><a href="#" class="leve1"><i class="menuicons finnews"></i>FinNews</a></li>
+ <li class="dropdown"><a href="#" class="leve1 dropdown-toggle"><i class="menuicons helpdesk"></i>HelpDesk</a>
+     
+     <div class="dropdown-menu level_one">
+         <div class="fullheight d-flex align-items-center">
+         <div class="fullwidth">
+     <ul class="">
+   
+       <li><a href="#" class="leve2">  Wallet 1</a></li>
+<li><a href="#" class="leve2">Wallet 2</a>
+         
+         
+         </li>
+<li><a href="#" class="leve2">Wallet 3</a></li>
+     </ul>
+         </div>
+             </div>
+     </div>
+     
+     
+     </li>
+     </ul>
+  </div></div>
+</div>
  
  <footer class="footer">
  <div class="container-fluid">
@@ -176,5 +299,22 @@ Percentage</div>
     
      </div>  
     </footer>
+    <script type="text/javascript">
+    
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "400px";
+document.getElementById("mySidenav").style.opacity = "1";
+      document.getElementById("mySidenav").style.margin = "0"; 
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "-400px";
+document.getElementById("mySidenav").style.opacity = "0";
+     document.getElementById("mySidenav").style.margin = "0 0 0 -400px"; 
+    
+}
+    
+    </script>
 </body>
 </html>

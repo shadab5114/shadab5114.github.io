@@ -173,9 +173,171 @@ a:hover{ text-decoration: none;}
 .insulead{ padding-left: 100px;}
 .m_l_15{ margin-left: -15px;}
 
+.slidercol{min-height: 500px;}
+
+.slidercol .carousel-item {position: relative;}
+.slidecntmid{min-height: 550px;}
+.slide_info h1{margin: 0 0 15px;font-size: 70px;font-weight: 900;color: #555555;line-height: 70px;letter-spacing: -2px;}
+.slide_info p{font-size: 18px;color: #BBB8AC;font-family: 'Merriweather', serif;font-weight: 500;letter-spacing: -1px;}
+.slide_info h1 span { color: #EA343C;}
+.slide_info p span{ color: #0270E3;}
+.slideOne:after{width: 304px;height: 420px;background: url(../images/slide3.svg);position: absolute;right: 0;content: "";background-repeat: no-repeat;background-size: cover;top: 50%;margin-top: -210px;}
+#hero-slider{padding: 0 80px;}
+.loginlink a{font-family: 'Merriweather', serif;color: #BBB8AC;font-size: 18px;position: relative;top: 2px;position: relative;padding-right: 24px;}
+.loginlink a:after{background: url(../images/arrow_r.svg);position: absolute;right: 0;width: 16px;height: 15px;content: "";top: 6px;}
+.carousel-control-next, .carousel-control-prev{width: auto;height: auto;top: 50%;bottom: auto;/* background-size: cover; */opacity: 1;}
+.carousel-control-next:after, .carousel-control-prev:after{width: 20px;height: 35px;content: "";background-size: contain !important;margin-top: -16px;}
+.carousel-control-next:after{background: url(../images/slide_r_arrow.svg);}
+.carousel-control-prev:after{background: url(../images/slide_l_arrow.svg);}
+#hero-slider .carousel-indicators li{width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #E8E6DF;
+    margin: 0 5px;
+    padding: 0;
+    border: none;}
+#hero-slider .carousel-indicators li.active{ padding: 0; background:#FA513C; }
+.sidenav {
+  height: 100%;  
+  width: 0; 
+  position: fixed;  
+  z-index: 9;  
+  top: 0; 
+  left: 0;
+  background-color:#F9F8F1; margin-left: -400px;  
+  transition: 0.5s;  
+}
+
+.closebtn{ position: absolute; width: 35px; left: 20px; top: 20px;}
+.slidemenu{ margin: 0; padding: 0; list-style-type: none;}
+.slidemenu li{display: block;position: static;}
+.slidemenu li a{color: #97948C;font-family: 'Merriweather', serif;display: block;padding: 20px 0 20px 130px;font-size: 16px;position: relative;}
+.fullheight{ height: 100vh;}
+.fullwidth{ width: 100%;}
+.slidemenu li a:hover{ background: #F2F0E4;}
+.slidemenu li .leve1:before{width: 220px;position: absolute;bottom: -1px;left: 20%;height: 1px;background: #dad9d3;content: "";}
+.menuicons{width: 24px;height: 33px;display: inline-block;position: absolute;left: 90px;background-size: cover;background-repeat: no-repeat;top: 50%;margin-top: -13px;background-position: center 0;}
+
+.profile{background-image: url(../images/menuicon1.png);width: 22px;}
+.finpro{background-image: url(../images/menuicon2.png);width: 27px;}
+.finteam{background-image: url(../images/menuicon3.png);height: 32px;width: 21px;margin-top: -17px;}
+.mywallet{background-image: url(../images/menuicon4.png);top: 26px;}
+.topoffers{background-image: url(../images/menuicon5.png);width: 28px;}
+.bestsell{background-image: url(../images/menuicon6.png);width: 26px;}
+.finads{background-image: url(../images/menuicon7.png);width: 30px;}
+.fintrain{background-image: url(../images/menuicon8.png);width: 28px;}
+.finnews{background-image: url(../images/menuicon9.png);width: 28px;height: 22px;margin-top: -10px;}
+.helpdesk{background-image: url(../images/menuicon10.png);width: 28px;margin-top: -15px;} 
+.dropdown-toggle::after{border: none;position: absolute;right: 100px;background-image: url(../images/menu_rarrow.png);width: 6px;height: 10px;padding: 0;margin: 0;top: 50%;margin-top: -4px;background-size: cover;background-position: right 0;}
+.dropdown:hover .dropdown-menu{ display: block;}
+
+.dropdown-menu.level_one { 
+    width: 300px;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: #F2F0E4;
+    border-radius: 0;
+    margin: 0;
+}
+.slidemenu .dropdown-menu.level_one li a{padding: 15px 0 15px 80px;font-family: 'Merriweather', serif;font-style: italic;font-size: 14px;}
+.carousel-indicators{ z-index: 3;}
+.dropdown-menu.level_two { 
+    width: 300px;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: #E8E5D7;
+    border-radius: 0;
+    margin: 0;display: none !important;
+}
+
+.level_one li.dropdown:hover .dropdown-menu.level_two{ display: block !important;} 
+.leve2:hover{ background: #E8E5D7 !important;}
+ul{ margin: 0; padding: 0;}
+.slidemenu li a:hover{ color: #EA343C !important;}
+
+.dropdown:hover .leve1.dropdown-toggle{background: #F2F0E4 !important;}
+.level_one .dropdown:hover .leve2.dropdown-toggle{background: #E8E5D7 !important;}
+.dropdown:hover a.leve1{ color: #EA343C !important;}
+.slidemenu .dropdown-menu.level_two li a{ background: none !important;}
+.leve1:hover .menuicons{ background-position: center bottom;}
+.leve1:hover .menuicons.profile, .dropdown:hover .leve1.dropdown-toggle .menuicons.profile {
+    background-position: center -49px;
+}
+.leve1:hover .menuicons.finpro, .dropdown:hover .leve1.dropdown-toggle .menuicons.finpro  {
+    background-position: center -46px;
+}
+.leve1:hover .menuicons.mywallet, .dropdown:hover .leve1.dropdown-toggle .menuicons.mywallet {
+    background-position: center -39px;
+}
+.leve1:hover .menuicons.topoffers, .dropdown:hover .leve1.dropdown-toggle .menuicons.topoffers {
+    background-position: center -64px;
+}
+.leve1:hover .menuicons.bestsell, .dropdown:hover .leve1.dropdown-toggle .menuicons.bestsell {
+    background-position: center -46px;
+}
+.leve1:hover .menuicons.finads, .dropdown:hover .leve1.dropdown-toggle .menuicons.finads {
+    background-position: center -49px;
+}
+.leve1:hover .menuicons.fintrain, .dropdown:hover .leve1.dropdown-toggle .menuicons.fintrain {
+    background-position: center -39px;
+}
+.leve1:hover .menuicons.finnews, .dropdown:hover .leve1.dropdown-toggle .menuicons.finnews {
+    background-position: center -38px;
+}
+.leve1:hover .menuicons.helpdesk, .dropdown:hover .leve1.dropdown-toggle .menuicons.helpdesk {
+    background-position: center -44px;
+}
+ .dropdown-toggle.leve1:hover::after, .dropdown:hover .dropdown-toggle::after{background-position: left 0;}
+.leve2.dropdown-toggle::after{ margin-top: -6px;}
+
+.level_one .dropdown:hover .leve2.dropdown-toggle {
+    color: #EA343C !important;
+}
+ 
+.slidemenu li .leve3:before {
+    width: 180px;
+    position: absolute;
+    bottom: -1px;
+    left: 20%;
+    height: 1px;
+    background: #dad9d3;
+    content: "";
+}
+.slideTwo:after{width: 270px;height: 347px;background: url(../images/slide4.svg);position: absolute;right: 0;content: "";background-repeat: no-repeat;background-size: contain;top: 50%;margin-top: -150px;}
 
 
+.slideThree:after{width: 270px;height: 347px;background: url(../images/slide2.svg);position: absolute;right: 8%;content: "";background-repeat: no-repeat;background-size: contain;top: 50%;margin-top: -150px;}
+.slide_info  { position: relative; z-index: 3;}
+.logincntmid{/* min-height: 500px; */}
+.logincol{padding:0px;}
 
+.logincol h1{margin: 0 0 15px;font-size: 65px;font-weight: 900;color: #555555;line-height: 65px;letter-spacing: -2px;} 
+.logincol h1 span { color: #EA343C;}
+
+.logincntmid{ padding: 150px 0 0; position: relative;}
+
+.logincntmid:after{width: 389px;height: 300px;background: url(../images/loginimg.png);position: absolute;left: 37%;content: "";background-repeat: no-repeat;background-size: contain;top: 76%;margin-top: -150px;}
+.logincnt{ position: relative; z-index: 3;}
+.loginform{border: 1px solid #DBD9CC;padding: 35px;border-radius:20px;position: absolute;right: 0;z-index: 4;min-width: 350px;}
+.logincol .container{ position: relative;}
+.logincol .form-group input{border: none;border-bottom: 1px solid #f2f1e6;width: 100%;padding: 10px 0;font-family: 'Merriweather', serif;color: #6D6A57;font-weight: 800;font-size: 14px;}
+a:focus, button:focus, input:focus{ outline: none !important;}
+
+.loginbtns{ padding: 20px 0 30px;}
+.loginbtns button{border:1px solid #EA343C;background: #EA343C;color: #fff;border-radius:30px;padding: 15px 25px;font-family: 'Merriweather', serif;min-width: 130px;}
+.loginbtns button.signup{border:1px solid #B8B28F;background: #fff;color: #B8B28F;float: right;}
+.loginicon{ text-align: right; padding: 0 0 20px;}
+.forgotlink{font-family: 'Merriweather', serif;color: #0270E3;text-decoration: underline;font-weight: 600;font-size: 15px;}
+.loginbtns button:hover{border:1px solid #B8B28F;background: #fff;color: #B8B28F;}
+.loginbtns button.signup:hover{border:1px solid #EA343C;background: #EA343C;color: #fff;}
+.heightvh{ height: 100vh;}
+.hedtop{ position: absolute; left:0; right: 0; top: 0;} 
+.ftpbtm{ position: absolute; left:0; right: 0; bottom: 0;} 
+.widthfull{ width: 100%;}
 
 
 

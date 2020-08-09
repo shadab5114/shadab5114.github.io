@@ -20,19 +20,19 @@
 </head>
 <!--/head-->
 <body>
-<header class="hed">
+<header class="hed hedtop">
     <div class="container-fluid">
         <div class="border-b1 relative">
     <div class="row">
         
         <div class="col-md-6">
-    <div class="logo">   <a href="#"><img src="images/logo.png"></a></div> 
-        <div class="mobilemenu"><a href="#" onclick="openNav()"> <span class="menuline"></span> <span class="menuline"></span><span class="menuline"></span> </a> </div>
+    <div class="logo">   <a href="index.html"><img src="images/logo.png"></a></div> 
+        <!-- <div class="mobilemenu"><a href="#" onclick="openNav()"> <span class="menuline"></span> <span class="menuline"></span><span class="menuline"></span> </a> </div> -->
         </div>
         <div class="col-md-6 text-right">
         <ul class="fin_r_menu">
-            <li class="logname"><a href="#"> K </a> </li>
-            <li class="logout"><a href="login.html"> <img src="images/logout.png"> </a> </li>
+            <li class="loginlink"><a href="login.html"> Login  </a> </li>
+            <li class="logout"><a href="#"> <img src="images/user.svg"> </a> </li>
             </ul>
         
         </div>
@@ -41,121 +41,52 @@
     </div>
     </div>
     
-    </header> 
+    </header>
   
- <div class="dashboard">
-  <div class="container">  
-    
-    <div class="dashboard_mid">
-        <div class="filtermanu">
-        <ul class="topmenu">
-            <li><span class="filtertext">Filter by :</span> </li>
-             <li class="dropmenu "><a href="#" class="promenu drop_arrow">Investment  </a>  
-            
-            <ul class="submenu">
-                 
-                <li class=""><a href="dashboard.html">All Products</a>  </li>
-<li class=""><a href="#">Credit Card</a>  </li>
-<li class=""><a href="#">Loan</a>  </li>
-<li class=""><a href="insurance_v1.html">Insurance</a>  </li>
-<li class=""><a href="#">Investment</a>  </li>
-                 </ul>
-            
-            </li>
-            <li class="dropmenu brd_left"><a href="#" class="promenu">Date Range</a> 
-            <ul class="submenu calc">
-                 <img src="images/calc.png">
-             
-                 </ul>
-            
-            
-            </li>
-            </ul>
-        </div>
-        
-       <div class="leadsrow">
-        <div class="row">
-           <div class="col-md-4">
-            <div class="leadinfobox">
-               <div class="leadcount">100 <span> <img src="images/leadicon1.png"> </span></div>
-                <div class="leadname">Total<br> 
-Leads</div>
-               </div>
-            
-            </div>
-            <div class="col-md-4 text-center">
-            <div class="leadinfobox">
-               <div class="leadcount">40 <span> <img src="images/leadicon2.png"> </span></div>
-                <div class="leadname">Total Converted <br> 
-Leads</div>
-               </div>
-            
-            </div>
-            <div class="col-md-4 text-right">
-            <div class="leadinfobox">
-               <div class="leadcount">40% <span> <img src="images/leadicon3.png"> </span></div>
-                <div class="leadname">Total Converted 
-<br> 
-Percentage</div>
-               </div>
-            
-            </div>
-           
-           </div>
-        
-        
-        </div> 
-        </div>
-        <div class="graphrow">
-        <div class="row">
-           <div class="col-md-7"><div class="text-right"><img src="images/graph3.png"></div>
-               
-            </div>
-            <div class="col-md-5 text-center">
-                
-               <img src="images/graph5.png">
-            </div>
-            </div>
-        </div>
-        
-        <div class="grapdetails">
-        <div class="row">
-           <div class="col-md-8"> 
-               <div class="insulead">
-               <h4 class="titleOne">Insurance Leads | Last 3 months</h4>
-               
-               <ul class="graphinfo"> 
-<li class="color3">Insurance</li> 
-               
-               </ul></div>
-            </div>
-            <div class="col-md-4"> 
-                <h4 class="titleOne m_l_15">Sales by category</h4>
-               <div class="row">
-                   <div class="col-md-6 pad_l0 pad_r0"><ul class="graphinfo salesby">
-<li class="">Corporate - 10%</li>
-<li class="">Health Insurance - 20%</li>
-<li class="">Life + Investment - 10%</li>
-<li class="">Motor Insurance - 5%</li>
-               
-               </ul> </div>
-                   <div class="col-md-6 pad_l0 pad_r0"><ul class="graphinfo salesby">
-<li class="">Corporate - 10%</li>
-<li class="">Health Insurance - 20%</li>
-<li class="">Life + Investment - 10%</li>
-<li class="">Motor Insurance - 5%</li>
-               
-               </ul> </div>
-                </div>
-               
-            </div>
-            </div>
-        </div>
-        
-      
-    
-     </div>
-    </div>
+  <div class="logincol">
+ <div class="container">  
+     <div class="heightvh d-flex align-items-center">
+     <div class="widthfull">
+     <div class="loginform">
+         <div class="loginicon"><img src="images/loginicon.png"></div>
+                             <div class="form-group">
+                                 <input type="text" name="" placeholder="Enter your phone number / User ID"> 
+                             </div>
+                                 <div class="form-group">
+                                 <input type="text" name="" placeholder="Enter your password"> 
+                             </div>
+                                 
+                              <div class="loginbtns">
+                                 <button onclick="gotoDash();">Sign in</button> <button class="signup">Sign up</button>
+                                 </div>   
+                                 <a href="#" class="forgotlink">Forgot password ?</a>
+                             
+                             </div>
+                         <div class="logincntmid">
+                             
+                             
+                             
+                             
+                       <div class="logincnt">  
+  
+                              
+                            <h1> Welcome back
+ <br>
+  <span>please sign in 
+</span><br>
+                                <span>  to continue    </span>                  
+                            
+                            
+                            </h1>
+                            
+                                
+                             
+                        </div></div>
+                    </div>
+         </div>
+      </div>
+   </div> 
+     
  
  <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close.svg"> </a>
@@ -282,7 +213,7 @@ Percentage</div>
   </div></div>
 </div>
  
- <footer class="footer">
+ <footer class="footer ftpbtm">
  <div class="container-fluid">
      <div class="row">
            <div class="col-md-6">
@@ -301,6 +232,9 @@ Percentage</div>
     </footer>
     <script type="text/javascript">
     
+function gotoDash(){
+    window.location.href = "dashboard.html";
+}
   function openNav() {
   document.getElementById("mySidenav").style.width = "400px";
 document.getElementById("mySidenav").style.opacity = "1";
