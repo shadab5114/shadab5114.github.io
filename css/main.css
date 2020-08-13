@@ -338,6 +338,256 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .hedtop{ position: absolute; left:0; right: 0; top: 0;} 
 .ftpbtm{ position: absolute; left:0; right: 0; bottom: 0;} 
 .widthfull{ width: 100%;}
+.logname{ position: relative;}
+.logname_info{background: #fff;padding: 20px 30px;position: absolute;left: -250px;top: -10px;border: 1px solid #E2E2D0;width: 250px;display: inline-block;border-radius: 15px;color: #555555;text-align: left;box-shadow: 0px 3px 3px #f9f9f9;font-family: 'Merriweather', serif;line-height: initial;font-size: 15px;display: none;}
+.logname_info strong{display: block;font-family: 'Roboto', sans-serif;font-size: 18px;font-weight: 600;padding: 0 0 8px;}
+.logname_info:after, .logname_info:before {
+	left: 100%;
+	top: 29%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.logname_info:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #fff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.logname_info:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #E2E2D0;
+	border-width: 12px;
+	margin-top: -12px;
+}
+.logname a:hover .logname_info{ display: block;}
+.singlemenu{display: inline-block;padding: 0 0 0 10px;border-left: 2px solid #dddddd;margin: 0 0 0 25px;}
+.singlemenu ul{margin: 0;list-style-type: none;display: block;padding: 15px 0 0;}
+.flex{ display: flex;}
+.singlemenu ul li {position: relative;padding:0 20px;display: inline-block;border-left: 1px solid #dddddd;line-height: 15px;}
+.singlemenu ul li a{ display: block;font-family: 'Merriweather', serif; color: #BFBEBE; font-weight:600; font-size: 12px;}
+.singlemenu ul li:nth-child(1){ border: none;}
+.singlemenu ul li.active a, .singlemenu ul li a:hover{ color: #686868;}
+.singlecol{ padding: 100px 0;}
+.leadmenu{margin: 0;display: inline-block;width: 300px;}
+.leadmenu ul{margin: 0;padding: 0;list-style-type: none;display: block;max-width: initial;}
+.leadmenu ul li{display: inline-block;position: relative;padding: 10px 0;clear: both;}
+.leadmenu ul li a.level_sinle{display: inline-block;padding: 28px 35px 28px 90px;background: #F9F8F1;border-radius:50px;border: 1px solid #B8B8B8;color: #97948C;font-family: 'Merriweather', serif;font-weight: 600;min-width: 250px;position: relative;}
+.singleicons{position: absolute;left: 35px;width: 35px;height: 35px;line-height: 33px;border-radius:50%;background: #E81D26;text-align: center;top: 21px;}
+.singleicons img{max-width: 21px;max-height: 20px;}
+.leadmenu ul li a.level_sinle:after{position: absolute;width: 6px;height: 10px;background: url(../images/leadm_arrow.png);content: "";right: 45px;background-position: right center;top: 35px;}
+.addmeuimg{ padding: 100px 20px 0 0;}
+.leadsubmenu{position: absolute;margin: 0;padding: 0;list-style-type: none;left: 100%;background: #fff;z-index: 3;padding: 10px 25px !important;border: 1px solid #d8d8d8;box-shadow: 0px 0px 10px #f9f9f9;border-radius: 15px;top: 10px;min-width: 180px;display: none !important;margin: 0 0 0 5px !important;}
+.lead_drop:hover .leadsubmenu { display: block !important;}
+.leadsubmenu li{display: block !important;border-bottom: 1px solid #E4CBCB;}
+.leadsubmenu li a{font-size: 14px;padding: 0 0 0 9px;display: block;}
+
+.leadsubmenu:after, .leadsubmenu:before {
+	right: 100%;
+	top: 11%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.leadsubmenu:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #fff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.leadsubmenu:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #E2E2D0;
+	border-width: 12px;
+	margin-top: -12px;
+}
+.leadsubmenu li a:hover{ color: #0270E3 !important;}
+.lead_drop:hover a.level_sinle .singleicons, .leadmenu ul li a.level_sinle:hover .singleicons{ background: #0270E3;}
+.lead_drop:hover a.level_sinle:after, .leadmenu ul li a.level_sinle:hover:after{background-position: 0 center;}
+.lead_drop:hover a.level_sinle, .leadmenu ul li a.level_sinle:hover{ color: #0270E3 !important;}
+
+
+.insurecheck{ padding: 100px 0;}
+.insurecheck h3{margin: 0 0 15px;
+    font-size: 50px;
+    font-weight: 900; text-align: center;
+    color: #555555;
+    line-height: 70px;
+    letter-spacing: -2px;}
+
+.insurecheck h3 span {
+    color: #EA343C;
+}
+.stepnum{margin: 0 0 80px;width: auto;position: relative;display: inline-block;}
+.spancount{width: 30px;height: 30px;line-height: 25px;border: 2px solid #000;border-radius:50%;display: inline-block;text-align: center;font-family: 'Merriweather', serif;font-weight: bold;position: relative;z-index: 3;background: #fff;margin: 0 30px;}
+.stepnum:after{height: 1px;content: "";position: absolute;left: 30px;right: 30px;top: 48%;border-bottom: 2px dashed #000;}
+.spancount.active{background:#0270E3;border-color: #0270E3;color: #fff;/* margin: 0 30px; */}
+
+
+.floatfield input:focus ~ .floating-label,
+.floatfield input:not(:focus):valid ~ .floating-label{
+  top:-25px;
+  bottom: 10px;
+  left: 0px; color: #E81D26;   
+  opacity: 1; 
+}
+
+.floatfield .inputText {
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #555555;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid #F2F1E6;
+  font-size: 14px;
+}
+.floatfield .inputText:focus{border-color: #E81D26;}
+.floatfield .floating-label {
+  position: absolute;
+  pointer-events: none; font-size: 14px;
+  left: 0px;
+  top: 0px;
+  transition: 0.2s ease all;font-family: 'Merriweather', serif;font-weight: bold; color: #555555;
+}
+.floatfield{ margin: 0 0 50px; position: relative;} 
+.ri100{ padding: 0 100px 0 0;}
+.li100{ padding: 0 0px 0 100px;}
+.dym{ color: #BBBBBB; font-style: normal;}
+.margb30{ margin-bottom: 30px !important;}
+.loginbtns.checkbtns { padding: 0;}
+.loginbtns.checkbtns button{border-radius: 50px;
+    padding: 20px 50px;}
+.loginbtns button.signup{ float: none; margin: 0 0 0 20px;}
+.ri20{ padding-right: 30px;}
+.li30{ padding-left: 30px;}
+.insurecheck label{font-family: 'Merriweather', serif;font-weight: bold; color: #555555; font-size: 14px; color: #0270E3;}
+.insurecheck label a{ color: #0270E3; text-decoration: underline;}
+.insurecheck .custom-control-label::before{width: 25px;left: -35px;
+    height: 25px;top: -2px;}
+.insurecheck .custom-control{    padding-left: 40px;}
+.insurecheck .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-image: url(../images/tickmark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    left: -34px;
+    width: 25px;
+    top: 3px;
+    }
+.insurecheck .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #0270E3;
+    background-color: #fff;
+}
+.custom-control-label::before{border: #0270E3 solid 1px;}
+.marketingcol{ background: #F9F8F1; padding: 70px 0;}
+
+.marketingcol h3{
+    margin: 0 0 50px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #555555;
+    line-height: 70px;
+    letter-spacing: -2px;
+    position: relative;
+    }
+
+.marketingcol h3 span {
+    color: #EA343C;
+}
+.marketproinfo{padding: 40px 0px 0;} 
+.marketproinfo p{margin: 0;font-size: 12px;font-weight: 300;}
+.marketicons a{ margin: 0 0 0 20px; display: inline-block;}
+.marketicons{ text-align: right;} 
+.marketcol{    padding: 25px;
+    background: #fff;
+    border: 1px solid #B9B79D;
+    border-radius: 10px;}
+.marketproinfo h5{ margin: 0 0 10px;font-family: 'Merriweather', serif;font-weight: bold; color:#686868;  position: relative;}
+.showmore{ padding:50px 0 0; text-align: center;}
+.showmore a{ background: #EA343C;  display: inline-block; padding: 18px 25px; border-radius: 40px;font-family: 'Merriweather', serif; color: #fff;}
+.marketmenutoggle{width: 32px;height: 25px;background-image: url(../images/toggle.png);display: inline-block;background-repeat: no-repeat;}
+.marketmenu{position: absolute;right: 0;top: 0;letter-spacing: 0;}
+.marketmenu .leadsubmenu{ 
+    left: auto;
+    right: 102%;
+    text-align: left;
+    }
+.marketmenu .leadsubmenu:before{border-left-color: #E2E2D0; border-right: 0}
+.marketmenu .leadsubmenu:after, .marketmenu .leadsubmenu:before{left: 100%;}
+.marketmenu .leadsubmenu:after{border-left-color: #fff; border-right: 0}
+.marketmenu .leadsubmenu a{ color: #9E9E9E; font-weight: 500;}
+.marketmenu:hover .leadsubmenu{
+    display: block !important;}
+.mar_l0_r20{ margin: 0 20px 0 0 !important;}
+.sucessmsg{ background: #F9F8F1; padding: 100px 0; min-height: 530px; position: relative;}
+.subhedmain{margin: 0 0 10px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #555555;
+    line-height: 70px;
+    letter-spacing: -2px;}
+.subhedmain span {
+    color: #EA343C;
+}
+.backlink{ text-align: center;font-family: 'Merriweather', serif;font-weight: bold; color: #0270E3; text-decoration: underline;}
+.profileclose{ position: absolute; right: 80px; top: 80px;}
+
+.termscol{ background: #fff; padding: 50px; width: 60%; margin: 0 auto;}
+.termscol p{ color: #A8A8A8; font-size: 14px;}
+.termscol h5{ color: #646463; font-weight: 900; font-size: 25px; margin: 0 0 50px; text-align: center;}
+.termscol p strong{ color: #555555;}
+.certificate{ background: #fff; padding: 30px; display: inline-block;}
+.padt_70{ padding-top: 70px;}
+.trainingcol{padding:30px;border: 1px solid #B9B79D;border-radius:10px;background:#fff;min-height: 250px; margin: 0 20px;}
+.padt_50{ padding-top: 50px;}
+.trainingcol h5{color: #686868;margin: 15px 0 0;font-family: 'Merriweather', serif;font-size: 14px;font-weight: 600;}
+.fltmenu{     position: absolute;
+    top: 0;
+    right: 0;}
+.fin-news h5{margin: 20px 0 15px;font-weight: 800;color: #686868;font-size: 16px;}
+.fin-news p{color: #BBB8AC;font-size: 14px;line-height: initial;}
+.fin-news a{ color: #0270E3; font-size: 14px;}
+.fin-news{min-height: 500px;}
+.insurance-check{
+    background: #F9F8F1;
+    padding:50px;
+    height: 800px;
+    position: relative;
+    overflow-y: scroll;
+    }
+.insurance-scroll{ border: 1px solid #707070; border-radius: 10px; padding: 50px; background: #fff;}
+.insurance-scroll p{ color: #A7A6A6; font-size: 13px;}
+.insurehed h6{color: #686868;font-size: 25px;font-family: 'Merriweather', serif;margin: 0 0 20px;font-weight: 600;}
+.insurehed .text-right{ color: #BBB8AC;font-family: 'Merriweather', serif; font-weight: 600; font-size: 14px; padding-top: 5px;}
+.insurehed .text-right i{ display: inline-block; line-height: 10px; padding: 0 20px;}
+.insurehed .text-right a{ display: inline-block; margin: 0 0 0 30px; color: #0270E3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
