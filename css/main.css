@@ -46,16 +46,16 @@ a:hover, a:focus {
 }
 .logo{display: inline-block;float: left;}
 .mobilemenu{ display: inline-block;} 
-.hed{ padding: 0 10px;} 
-.logo img{ width: 120px;}
+.hed{padding: 0 10px;background: #fff;} 
+.logo img{ height: 35px;}
 .border-b1 { border-bottom: 1px solid #f2f1e6; padding: 20px 0;}
 .relative{ position: relative;}
 .mobilemenu{padding: 0 0 0 30px;border-left:2px solid #dddddd;margin: 0 0 0 30px;}
 .mobilemenu a{width: 35px;height: 35px;display: block;border-radius: 50%;border: 2px solid #4a4949;text-align: center;padding-top: 5px;}
-.menuline{width: 17px;display: block;height: 3px;border-radius: 50%;background: #e81d26;margin: 3px auto;}
+.menuline{width: 17px;display: block;height: 3px;border-radius: 100px;background: #e81d26;margin: 3px auto;}
 .fin_r_menu{display: block;list-style-type: none;margin: 0;padding: 0;}
 .fin_r_menu li{padding: 0 0 0 20px;display: inline-block;}
-.logout img{width: 35px;}
+.logout img{width: 32px;}
 .logname a{display: inline-block;width: 35px;height: 35px;line-height: 35px;text-align: center;color: #fff;background: #ee5a60;border-radius: 50%;font-weight: bold;font-family: 'Montserrat', sans-serif;}
 .dashboard_mid{width: 850px;margin: 0 auto;}
 .filtermanu{ text-align: center;}
@@ -113,9 +113,9 @@ a:hover, a:focus {
 .footer ul li{ display: inline-block; padding: 0 20px; position: relative;}
 .footer ul li a{ display: block; color: #bbb9b4; font-size: 14px;}
 .powered{display: inline-block;position: relative;color: #bbb9b4;font-size: 14px;padding-right: 50px;}
-.poweredimg{position: absolute;bottom: 0;right: 0;}
+.poweredimg{position: absolute;bottom: auto;right: 0;top: 50%;margin-top: -22px;}
 a:hover{ text-decoration: none;}
-.footer ul li a:hover{ color: #000;}
+.footer ul li a:hover{color: #ee5a60;}
 .footer ul li:after{width: 1px;height: 10px;background:#bbb9b4;position: absolute;right: 0;content: "";top: 6px;}
 .footer ul li:nth-child(3):after{ display: none;}
 .filtertext{ padding: 20px;}
@@ -183,8 +183,8 @@ a:hover{ text-decoration: none;}
 .slide_info p span{ color: #0270E3;}
 .slideOne:after{width: 304px;height: 420px;background: url(../images/slide3.svg);position: absolute;right: 0;content: "";background-repeat: no-repeat;background-size: cover;top: 50%;margin-top: -210px;}
 #hero-slider{padding: 0 80px;}
-.loginlink a{font-family: 'Merriweather', serif;color: #BBB8AC;font-size: 18px;position: relative;top: 2px;position: relative;padding-right: 24px;}
-.loginlink a:after{background: url(../images/arrow_r.svg);position: absolute;right: 0;width: 16px;height: 15px;content: "";top: 6px;}
+.loginlink a{font-family: 'Merriweather', serif;color: #BBB8AC;font-size: 18px;position: relative;top: 2px;position: relative;padding-right: 23px;}
+.loginlink a:after{background: url(../images/loginarrow.png);position: absolute;right: 0;width: 16px;height: 17px;content: "";top: 50%;background-position: right center;background-size: cover;margin-top: -7px;}
 .carousel-control-next, .carousel-control-prev{width: auto;height: auto;top: 50%;bottom: auto;/* background-size: cover; */opacity: 1;}
 .carousel-control-next:after, .carousel-control-prev:after{width: 20px;height: 35px;content: "";background-size: contain !important;margin-top: -16px;}
 .carousel-control-next:after{background: url(../images/slide_r_arrow.svg);}
@@ -211,23 +211,23 @@ a:hover{ text-decoration: none;}
 .closebtn{ position: absolute; width: 35px; left: 20px; top: 20px;}
 .slidemenu{ margin: 0; padding: 0; list-style-type: none;}
 .slidemenu li{display: block;position: static;}
-.slidemenu li a{color: #97948C;font-family: 'Merriweather', serif;display: block;padding: 20px 0 20px 130px;font-size: 16px;position: relative;}
+.slidemenu li a{color: #97948C;font-family: 'Merriweather', serif;display: block;padding: 20px 0 20px 130px;font-size: 15px;position: relative;}
 .fullheight{ height: 100vh;}
 .fullwidth{ width: 100%;}
 .slidemenu li a:hover{ background: #F2F0E4;}
 .slidemenu li .leve1:before{width: 220px;position: absolute;bottom: -1px;left: 20%;height: 1px;background: #dad9d3;content: "";}
-.menuicons{width: 24px;height: 33px;display: inline-block;position: absolute;left: 90px;background-size: cover;background-repeat: no-repeat;top: 50%;margin-top: -13px;background-position: center 0;}
+.menuicons{width: 24px;height: 29px;display: inline-block;position: absolute;left: 90px;background-size: cover;background-repeat: no-repeat;top: 50%;margin-top: -13px;background-position: center 0;}
 
-.profile{background-image: url(../images/menuicon1.png);width: 22px;}
-.finpro{background-image: url(../images/menuicon2.png);width: 27px;}
-.finteam{background-image: url(../images/menuicon3.png);height: 32px;width: 21px;margin-top: -17px;}
-.mywallet{background-image: url(../images/menuicon4.png);top: 26px;}
-.topoffers{background-image: url(../images/menuicon5.png);width: 28px;}
-.bestsell{background-image: url(../images/menuicon6.png);width: 26px;}
-.finads{background-image: url(../images/menuicon7.png);width: 30px;}
-.fintrain{background-image: url(../images/menuicon8.png);width: 28px;}
-.finnews{background-image: url(../images/menuicon9.png);width: 28px;height: 22px;margin-top: -10px;}
-.helpdesk{background-image: url(../images/menuicon10.png);width: 28px;margin-top: -15px;} 
+.profile{background-image: url(../images/menuicon1.png);width: 20px;}
+.finpro{background-image: url(../images/menuicon2.png);width: 25px;height: 30px;}
+.finteam{background-image: url(../images/menuicon3.png);height: 28px;width: 18px;margin-top: -14px;}
+.mywallet{background-image: url(../images/menuicon4.png);top: 29px;width: 22px;}
+.topoffers{background-image: url(../images/menuicon5.png);width: 26px;}
+.bestsell{background-image: url(../images/menuicon6.png);width: 24px;}
+.finads{background-image: url(../images/menuicon7.png);width: 28px;}
+.fintrain{background-image: url(../images/menuicon8.png);width: 26px;}
+.finnews{background-image: url(../images/menuicon9.png);width: 25px;height: 25px;margin-top: -8px;}
+.helpdesk{background-image: url(../images/menuicon10.png);width: 25px;margin-top: -13px;} 
 .dropdown-toggle::after{border: none;position: absolute;right: 100px;background-image: url(../images/menu_rarrow.png);width: 6px;height: 10px;padding: 0;margin: 0;top: 50%;margin-top: -4px;background-size: cover;background-position: right 0;}
 .dropdown:hover .dropdown-menu{ display: block;}
 
@@ -263,33 +263,33 @@ ul{ margin: 0; padding: 0;}
 .level_one .dropdown:hover .leve2.dropdown-toggle{background: #E8E5D7 !important;}
 .dropdown:hover a.leve1{ color: #EA343C !important;}
 .slidemenu .dropdown-menu.level_two li a{ background: none !important;}
-.leve1:hover .menuicons{ background-position: center bottom;}
+.leve1:hover .menuicons{background-position: center -46px;}
 .leve1:hover .menuicons.profile, .dropdown:hover .leve1.dropdown-toggle .menuicons.profile {
-    background-position: center -49px;
+    background-position: center -44px;
 }
 .leve1:hover .menuicons.finpro, .dropdown:hover .leve1.dropdown-toggle .menuicons.finpro  {
-    background-position: center -46px;
+    background-position: center -41px;
 }
 .leve1:hover .menuicons.mywallet, .dropdown:hover .leve1.dropdown-toggle .menuicons.mywallet {
-    background-position: center -39px;
+    background-position: center -37px;
 }
 .leve1:hover .menuicons.topoffers, .dropdown:hover .leve1.dropdown-toggle .menuicons.topoffers {
-    background-position: center -64px;
+    background-position: center -61px;
 }
 .leve1:hover .menuicons.bestsell, .dropdown:hover .leve1.dropdown-toggle .menuicons.bestsell {
-    background-position: center -46px;
+    background-position: center -42px;
 }
 .leve1:hover .menuicons.finads, .dropdown:hover .leve1.dropdown-toggle .menuicons.finads {
-    background-position: center -49px;
+    background-position: center -45px;
 }
 .leve1:hover .menuicons.fintrain, .dropdown:hover .leve1.dropdown-toggle .menuicons.fintrain {
-    background-position: center -39px;
+    background-position: center -37px;
 }
 .leve1:hover .menuicons.finnews, .dropdown:hover .leve1.dropdown-toggle .menuicons.finnews {
-    background-position: center -38px;
+    background-position: center -35px;
 }
 .leve1:hover .menuicons.helpdesk, .dropdown:hover .leve1.dropdown-toggle .menuicons.helpdesk {
-    background-position: center -44px;
+    background-position: center -40px;
 }
  .dropdown-toggle.leve1:hover::after, .dropdown:hover .dropdown-toggle::after{background-position: left 0;}
 .leve2.dropdown-toggle::after{ margin-top: -6px;}
@@ -298,7 +298,7 @@ ul{ margin: 0; padding: 0;}
     color: #EA343C !important;
 }
  
-.slidemenu li .leve3:before {
+.slidemenu li .leve3:before, .slidemenu li .leve2:before {
     width: 180px;
     position: absolute;
     bottom: -1px;
@@ -320,7 +320,7 @@ ul{ margin: 0; padding: 0;}
 
 .logincntmid{ padding: 150px 0 0; position: relative;}
 
-.logincntmid:after{width: 389px;height: 300px;background: url(../images/loginimg.png);position: absolute;left: 37%;content: "";background-repeat: no-repeat;background-size: contain;top: 76%;margin-top: -150px;}
+.logincntmid:after{width: 300px;height: 300px;background: url(../images/loginimg.png);position: absolute;left: 39%;content: "";background-repeat: no-repeat;background-size: contain;top: 76%;margin-top: -150px;}
 .logincnt{ position: relative; z-index: 3;}
 .loginform{border: 1px solid #DBD9CC;padding: 35px;border-radius:20px;position: absolute;right: 0;z-index: 4;min-width: 350px;}
 .logincol .container{ position: relative;}
@@ -336,10 +336,10 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .loginbtns button.signup:hover{border:1px solid #EA343C;background: #EA343C;color: #fff;}
 .heightvh{ height: 100vh;}
 .hedtop{ position: absolute; left:0; right: 0; top: 0;} 
-.ftpbtm{ position: absolute; left:0; right: 0; bottom: 0;} 
+.ftpbtm{position: fixed;left:0;right: 0;bottom: 0;} 
 .widthfull{ width: 100%;}
 .logname{ position: relative;}
-.logname_info{background: #fff;padding: 20px 30px;position: absolute;left: -250px;top: -10px;border: 1px solid #E2E2D0;width: 250px;display: inline-block;border-radius: 15px;color: #555555;text-align: left;box-shadow: 0px 3px 3px #f9f9f9;font-family: 'Merriweather', serif;line-height: initial;font-size: 15px;display: none;}
+.logname_info{background: #fff;padding: 20px 30px;position: absolute;left: -250px;top: -10px;border: 1px solid #E2E2D0;width: 250px;display: inline-block;border-radius: 15px;color: #555555;text-align: left;box-shadow: 0px 3px 3px #f9f9f9;font-family: 'Merriweather', serif;line-height: initial;font-size: 15px;display: none;z-index: 3;}
 .logname_info strong{display: block;font-family: 'Roboto', sans-serif;font-size: 18px;font-weight: 600;padding: 0 0 8px;}
 .logname_info:after, .logname_info:before {
 	left: 100%;
@@ -383,12 +383,12 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .addmeuimg{ padding: 100px 20px 0 0;}
 .leadsubmenu{position: absolute;margin: 0;padding: 0;list-style-type: none;left: 100%;background: #fff;z-index: 3;padding: 10px 25px !important;border: 1px solid #d8d8d8;box-shadow: 0px 0px 10px #f9f9f9;border-radius: 15px;top: 10px;min-width: 180px;display: none !important;margin: 0 0 0 5px !important;}
 .lead_drop:hover .leadsubmenu { display: block !important;}
-.leadsubmenu li{display: block !important;border-bottom: 1px solid #E4CBCB;}
-.leadsubmenu li a{font-size: 14px;padding: 0 0 0 9px;display: block;}
+.leadsubmenu li{display: block !important;border-bottom: 1px solid #E4CBCB;line-height: inherit;}
+.leadsubmenu li a{font-size: 14px;padding: 0 0 0 9px;display: block;line-height: initial;}
 
 .leadsubmenu:after, .leadsubmenu:before {
 	right: 100%;
-	top: 11%;
+	top: 28px;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -409,7 +409,7 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 	border-width: 12px;
 	margin-top: -12px;
 }
-.leadsubmenu li a:hover{ color: #0270E3 !important;}
+.leadsubmenu li a:hover{color: #000 !important;opacity: 0.5;}
 .lead_drop:hover a.level_sinle .singleicons, .leadmenu ul li a.level_sinle:hover .singleicons{ background: #0270E3;}
 .lead_drop:hover a.level_sinle:after, .leadmenu ul li a.level_sinle:hover:after{background-position: 0 center;}
 .lead_drop:hover a.level_sinle, .leadmenu ul li a.level_sinle:hover{ color: #0270E3 !important;}
@@ -426,9 +426,9 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .insurecheck h3 span {
     color: #EA343C;
 }
-.stepnum{margin: 0 0 80px;width: auto;position: relative;display: inline-block;}
-.spancount{width: 30px;height: 30px;line-height: 25px;border: 2px solid #000;border-radius:50%;display: inline-block;text-align: center;font-family: 'Merriweather', serif;font-weight: bold;position: relative;z-index: 3;background: #fff;margin: 0 30px;}
-.stepnum:after{height: 1px;content: "";position: absolute;left: 30px;right: 30px;top: 48%;border-bottom: 2px dashed #000;}
+.stepnum{margin: 15px 0 80px;width: auto;position: relative;display: inline-block;}
+.spancount{width: 35px;height: 35px;line-height: 28px;border: 2px solid #000;border-radius:50%;display: inline-block;text-align: center;font-family: 'Merriweather', serif;font-weight: bold;position: relative;z-index: 3;background: #fff;margin: 0 30px;}
+.stepnum:after{height: 1px;content: "";position: absolute;left: 30px;right: 30px;top: 50%;border-bottom: 2px dashed #000;margin-top: 0;}
 .spancount.active{background:#0270E3;border-color: #0270E3;color: #fff;/* margin: 0 30px; */}
 
 
@@ -453,10 +453,14 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .floatfield .inputText:focus{border-color: #E81D26;}
 .floatfield .floating-label {
   position: absolute;
-  pointer-events: none; font-size: 14px;
+  pointer-events: none;
+  font-size: 13px;
   left: 0px;
   top: 0px;
-  transition: 0.2s ease all;font-family: 'Merriweather', serif;font-weight: bold; color: #555555;
+  transition: 0.2s ease all;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #555555;
 }
 .floatfield{ margin: 0 0 50px; position: relative;} 
 .ri100{ padding: 0 100px 0 0;}
@@ -518,19 +522,19 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .showmore a{ background: #EA343C;  display: inline-block; padding: 18px 25px; border-radius: 40px;font-family: 'Merriweather', serif; color: #fff;}
 .marketmenutoggle{width: 32px;height: 25px;background-image: url(../images/toggle.png);display: inline-block;background-repeat: no-repeat;}
 .marketmenu{position: absolute;right: 0;top: 0;letter-spacing: 0;}
-.marketmenu .leadsubmenu{ 
+.marketmenu .leadsubmenu{
     left: auto;
-    right: 102%;
+    right: 41px;
     text-align: left;
     }
 .marketmenu .leadsubmenu:before{border-left-color: #E2E2D0; border-right: 0}
 .marketmenu .leadsubmenu:after, .marketmenu .leadsubmenu:before{left: 100%;}
 .marketmenu .leadsubmenu:after{border-left-color: #fff; border-right: 0}
-.marketmenu .leadsubmenu a{ color: #9E9E9E; font-weight: 500;}
+.marketmenu .leadsubmenu a{color: #9E9E9E;font-weight: 500;padding: 10px 0;}
 .marketmenu:hover .leadsubmenu{
     display: block !important;}
 .mar_l0_r20{ margin: 0 20px 0 0 !important;}
-.sucessmsg{ background: #F9F8F1; padding: 100px 0; min-height: 530px; position: relative;}
+.sucessmsg{ background: #F9F8F1; padding: 100px 0; min-height: 87vh;position: relative;}
 .subhedmain{margin: 0 0 10px;
     font-size: 50px;
     font-weight: 900;
@@ -690,27 +694,26 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .payhed h3 span {
     color: #EA343C;
 }
+.logo a:hover{ opacity: 0.5;}
+.loginlink a:hover{color: #EA343C;}
+.loginlink a:hover:after{background-position: 0px center;}
+.carousel-control-next{ right: -100px;}
+.carousel-control-prev{ left: -100px;}
+.loginbtns button:hover{ opacity: 0.5;}
+.mobilemenu a:hover{background: #e81d26; border-color: #e81d26;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mobilemenu a:hover .menuline{background: #fff;}
+.logname a:hover{background: rgb(238 90 96 / 0.50);}
+.logout a:hover{ opacity: 0.5;}
+.dropdown:hover .leve1.dropdown-toggle:before{ display: none;} 
+.singlemenu ul li a:hover{color: #ee5a60;}
+.singlemenu ul li.active a:hover{
+    color: #686868;
+}
+.greybg{background: #F9F8F1;} 
+.leadsubmenu li:last-child {border: none !important;}
+.marketmenutoggle:hover{ background-position: 0 bottom;}
+.marketmenu .leadsubmenu a:hover{ opacity: 0.5;}
 
 
 
