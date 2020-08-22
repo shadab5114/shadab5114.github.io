@@ -51,7 +51,7 @@ a:hover, a:focus {
 .border-b1 { border-bottom: 1px solid #f2f1e6; padding: 20px 0;}
 .relative{ position: relative;}
 .mobilemenu{padding: 0 0 0 30px;border-left:2px solid #dddddd;margin: 0 0 0 30px;}
-.mobilemenu a{width: 35px;height: 35px;display: block;border-radius: 50%;border: 2px solid #4a4949;text-align: center;padding-top: 5px;}
+.mobilemenu a{width: 40px;height: 40px;display: block;border-radius: 50%;border: 0px solid #4a4949;text-align: center;padding-top: 0;background: url(../images/menu/dott.png);background-size: cover;background-position: center;background-repeat: no-repeat;}
 .menuline{width: 17px;display: block;height: 3px;border-radius: 100px;background: #e81d26;margin: 3px auto;}
 .fin_r_menu{display: block;list-style-type: none;margin: 0;padding: 0;}
 .fin_r_menu li{padding: 0 0 0 20px;display: inline-block;}
@@ -208,7 +208,7 @@ a:hover{ text-decoration: none;}
   transition: 0.5s;  
 }
 
-.closebtn{ position: absolute; width: 35px; left: 20px; top: 20px;}
+.closebtn{ position: absolute; width: 35px; left: 20px; top: 20px; height: 35px; background-image: url(../images/menu/close.png);background-size: cover; background-position: center; background-repeat: no-repeat;} .closebtn:hover{background-image: url(../images/menu/closeh.png);}
 .slidemenu{ margin: 0; padding: 0; list-style-type: none;}
 .slidemenu li{display: block;position: static;}
 .slidemenu li a{color: #97948C;font-family: 'Merriweather', serif;display: block;padding: 20px 0 20px 130px;font-size: 15px;position: relative;}
@@ -216,18 +216,18 @@ a:hover{ text-decoration: none;}
 .fullwidth{ width: 100%;}
 .slidemenu li a:hover{ background: #F2F0E4;}
 .slidemenu li .leve1:before{width: 220px;position: absolute;bottom: -1px;left: 20%;height: 1px;background: #dad9d3;content: "";}
-.menuicons{width: 24px;height: 29px;display: inline-block;position: absolute;left: 90px;background-size: cover;background-repeat: no-repeat;top: 50%;margin-top: -13px;background-position: center 0;}
+.menuicons{width: 24px;height: 26px;display: inline-block;position: absolute;left: 90px;background-size: contain;background-repeat: no-repeat;top: 50%;margin-top: -13px;background-position: center 0;}
 
-.profile{background-image: url(../images/menuicon1.png);width: 20px;}
-.finpro{background-image: url(../images/menuicon2.png);width: 25px;height: 30px;}
-.finteam{background-image: url(../images/menuicon3.png);height: 28px;width: 18px;margin-top: -14px;}
-.mywallet{background-image: url(../images/menuicon4.png);top: 29px;width: 22px;}
-.topoffers{background-image: url(../images/menuicon5.png);width: 26px;}
-.bestsell{background-image: url(../images/menuicon6.png);width: 24px;}
-.finads{background-image: url(../images/menuicon7.png);width: 28px;}
-.fintrain{background-image: url(../images/menuicon8.png);width: 26px;}
-.finnews{background-image: url(../images/menuicon9.png);width: 25px;height: 25px;margin-top: -8px;}
-.helpdesk{background-image: url(../images/menuicon10.png);width: 25px;margin-top: -13px;} 
+.profile{background-image: url(../images/menu/menuicon1.png); }
+.finpro{background-image: url(../images/menu/menuicon2.png); }
+.finteam{background-image: url(../images/menu/menuicon3.png);}
+.mywallet{background-image: url(../images/menu/menuicon4.png); }
+.topoffers{background-image: url(../images/menu/menuicon5.png);}
+.bestsell{background-image: url(../images/menu/menuicon6.png);}
+.finads{background-image: url(../images/menu/menuicon7.png); }
+.fintrain{background-image: url(../images/menu/menuicon8.png); }
+.finnews{background-image: url(../images/menu/menuicon9.png); }
+.helpdesk{background-image: url(../images/menu/menuicon10.png); } 
 .dropdown-toggle::after{border: none;position: absolute;right: 100px;background-image: url(../images/menu_rarrow.png);width: 6px;height: 10px;padding: 0;margin: 0;top: 50%;margin-top: -4px;background-size: cover;background-position: right 0;}
 .dropdown:hover .dropdown-menu{ display: block;}
 
@@ -263,33 +263,36 @@ ul{ margin: 0; padding: 0;}
 .level_one .dropdown:hover .leve2.dropdown-toggle{background: #E8E5D7 !important;}
 .dropdown:hover a.leve1{ color: #EA343C !important;}
 .slidemenu .dropdown-menu.level_two li a{ background: none !important;}
-.leve1:hover .menuicons{background-position: center -46px;}
+
 .leve1:hover .menuicons.profile, .dropdown:hover .leve1.dropdown-toggle .menuicons.profile {
-    background-position: center -44px;
+   background-image: url(../images/menu/menuicon1h.png);
 }
 .leve1:hover .menuicons.finpro, .dropdown:hover .leve1.dropdown-toggle .menuicons.finpro  {
-    background-position: center -41px;
+    background-image: url(../images/menu/menuicon2h.png);
+}
+.leve1:hover .menuicons.finteam, .dropdown:hover .leve1.dropdown-toggle .menuicons.finteam {
+   background-image: url(../images/menu/menuicon3h.png);
 }
 .leve1:hover .menuicons.mywallet, .dropdown:hover .leve1.dropdown-toggle .menuicons.mywallet {
-    background-position: center -37px;
+   background-image: url(../images/menu/menuicon4h.png);
 }
 .leve1:hover .menuicons.topoffers, .dropdown:hover .leve1.dropdown-toggle .menuicons.topoffers {
-    background-position: center -61px;
+   background-image: url(../images/menu/menuicon5h.png);
 }
 .leve1:hover .menuicons.bestsell, .dropdown:hover .leve1.dropdown-toggle .menuicons.bestsell {
-    background-position: center -42px;
+  background-image: url(../images/menu/menuicon6h.png);
 }
 .leve1:hover .menuicons.finads, .dropdown:hover .leve1.dropdown-toggle .menuicons.finads {
-    background-position: center -45px;
+  background-image: url(../images/menu/menuicon7h.png);
 }
 .leve1:hover .menuicons.fintrain, .dropdown:hover .leve1.dropdown-toggle .menuicons.fintrain {
-    background-position: center -37px;
+   background-image: url(../images/menu/menuicon8h.png);
 }
 .leve1:hover .menuicons.finnews, .dropdown:hover .leve1.dropdown-toggle .menuicons.finnews {
-    background-position: center -35px;
+  background-image: url(../images/menu/menuicon9h.png);
 }
 .leve1:hover .menuicons.helpdesk, .dropdown:hover .leve1.dropdown-toggle .menuicons.helpdesk {
-    background-position: center -40px;
+   background-image: url(../images/menu/menuicon10h.png);
 }
  .dropdown-toggle.leve1:hover::after, .dropdown:hover .dropdown-toggle::after{background-position: left 0;}
 .leve2.dropdown-toggle::after{ margin-top: -6px;}
@@ -700,9 +703,9 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .carousel-control-next{ right: -100px;}
 .carousel-control-prev{ left: -100px;}
 .loginbtns button:hover{ opacity: 0.5;}
-.mobilemenu a:hover{background: #e81d26; border-color: #e81d26;}
+.mobilemenu a:hover{background: url(../images/menu/dotth.png);}
 
-.mobilemenu a:hover .menuline{background: #fff;}
+ 
 .logname a:hover{background: rgb(238 90 96 / 0.50);}
 .logout a:hover{ opacity: 0.5;}
 .dropdown:hover .leve1.dropdown-toggle:before{ display: none;} 
@@ -714,8 +717,20 @@ a:focus, button:focus, input:focus{ outline: none !important;}
 .leadsubmenu li:last-child {border: none !important;}
 .marketmenutoggle:hover{ background-position: 0 bottom;}
 .marketmenu .leadsubmenu a:hover{ opacity: 0.5;}
-
-
+.profileclose{width:35px;
+    height: 35px;
+    display: block;
+    border-radius: 50%;
+    border: 0px solid #4a4949;
+    text-align: center;
+    padding-top: 0;
+    background: url(../images/menu/close.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+.profileclose:hover {
+    background-image: url(../images/menu/closeh.png);
+}
 
 
 
